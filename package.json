@@ -1,0 +1,25 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "Node js Agency Tempalte",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nilotpalchanda/timer.git"
+  },
+  "author": "Nilotpal chanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nilotpalchanda/timer/issues"
+  },
+  "homepage": "https://github.com/Nilotpalchanda/timer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemailer": "^4.4.2"
+  }
+}
