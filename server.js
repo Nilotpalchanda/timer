@@ -8,6 +8,7 @@ var path = require ('path');
 var routes = require('./route/index.js');
 // end
 
+var port = process.env.PORT || 3000;
 
 app.set('view engine','ejs');
 
@@ -49,14 +50,15 @@ app.use(express.static(__dirname + '/public/plugins/owl-carousel'));
 // ================================================================
 routes(app);
 
+app.listen(port);
 
 
 // call server
-app.listen(8080, function (err) {
-    if (err) {
-        console.log(err);
-    } else {
-        console.log("Listening on port on 8080");
-    }
-});
+// app.listen(8080, function (err) {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         console.log("Listening on port on 8080");
+//     }
+// });
 //end
