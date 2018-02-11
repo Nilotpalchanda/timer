@@ -1,0 +1,24 @@
+
+
+        <% post.speakers.forEach(function(post) { %>
+ 
+    
+                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <div class="blog-post-image">
+                        <a href="post-fullwidth.html"><img class="img-responsive" src="images/blog/post-1.jpg" alt="" /></a>
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blogpost-title">
+                        <a href="post-fullwidth.html"><%= post.title %></a>
+                        </h2>
+                        <div class="blog-meta">
+                            <span>Dec 11, 2020</span>
+                            <span>by <a href="">Admin</a></span>
+                            <span><a href=""><%= post.tag %></a></span>
+                        </div>
+                        <p><%= post.content %></p>
+                        <a href="#" class="btn btn-dafault btn-details">Continue Reading</a>
+                    </div>
+                    
+                </article>
+             <% }); %>

@@ -37,6 +37,9 @@ app.get('/service',function(req,res){
 app.get('/gallery',function(req,res){
 	res.render('pages/gallery');
 });
+app.get('/blogs',function(req,res){
+  res.render('pages/blogs');
+});
 app.get('/contact',function(req,res){
 	res.render('pages/contact');
 });

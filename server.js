@@ -50,6 +50,11 @@ app.use(express.static(__dirname + '/public/plugins/owl-carousel'));
 // ================================================================
 routes(app);
 
+// app.locals.points = "99.89";
+
+app.locals.post = require('./post.json');
+
+
 app.listen(port);
 
 
