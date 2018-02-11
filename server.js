@@ -5,6 +5,7 @@ var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser');
 var path = require ('path');
 
+
 var routes = require('./route/index.js');
 // end
 
@@ -53,6 +54,10 @@ routes(app);
 // app.locals.points = "99.89";
 
 app.locals.post = require('./post.json');
+
+
+// time and date
+
 
 
 app.listen(port);

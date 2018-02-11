@@ -12,7 +12,7 @@
                         <a href="post-fullwidth.html"><%= post.title %></a>
                         </h2>
                         <div class="blog-meta">
-                            <span>Dec 11, 2020</span>
+                            <span><%= moment().format('Do MMMM, YYYY'); %></span>
                             <span>by <a href="">Admin</a></span>
                             <span><a href=""><%= post.tag %></a></span>
                         </div>

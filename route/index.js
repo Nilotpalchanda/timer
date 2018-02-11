@@ -1,3 +1,4 @@
+var moment = require('moment');
 module.exports = function(app){
 	
 app.get('/',function(req,res){
@@ -37,8 +38,11 @@ app.get('/service',function(req,res){
 app.get('/gallery',function(req,res){
 	res.render('pages/gallery');
 });
+
 app.get('/blogs',function(req,res){
-  res.render('pages/blogs');
+  res.render('pages/blogs',{
+    moment: moment
+  });
 });
 app.get('/contact',function(req,res){
 	res.render('pages/contact');
