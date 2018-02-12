@@ -1,6 +1,8 @@
 // call mode module
 var express = require ('express');
 var app = express();
+var fs = require('fs');
+var moment = require('moment');
 var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser');
 var path = require ('path');
@@ -51,15 +53,27 @@ app.use(express.static(__dirname + '/public/plugins/owl-carousel'));
 // ================================================================
 routes(app);
 
-// app.locals.points = "99.89";
-
-app.locals.post = require('./post.json');
+app.locals.posts = require('./post.json');
+app.all('*', function(req, res, next){
+  fs.readFile('./post.json', function(err, data){
+    res.locals.posts = JSON.parse(data);
+    next();
+  });
+});
+app.get('/:slug', function(req, res, next){
+  res.locals.posts.forEach(function(post){
+    if (req.params.slug === post.slug){
+      res.render('pages/post', 
+        { 
+          post: post,
+          moment: moment
+      });
+    }
+  })
+});
 
 
 // time and date
-
-
-
 app.listen(port);
 
 

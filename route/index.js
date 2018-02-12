@@ -59,9 +59,13 @@ app.get('/test',function(req,res){
 	});
 });
 
-app.get('/*',function(req,res){
-	res.render('pages/404');
-});
+
+// app.get('/*',function(req,res){
+// 	res.render('pages/404');
+// });
+
+
+
 
 };
 

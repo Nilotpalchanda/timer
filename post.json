@@ -1,24 +1,23 @@
-{ "speakers": [
-	{ 
-	"title": "Space shouldn’t be the final frontier",
-	"tag": " business,people",
-	"content": "Ultrices posuere cubilia curae curabitur sit amet tortor ut massa commodo. Vestibulum consectetur euismod malesuada tincidunt cum. Sed ullamcorper dignissim consectetur ut tincidunt eros sed sapien consectetur dictum. Pellentesques sed volutpat ante, cursus port. Praesent mi magna, penatibus et magniseget dis parturient montes sed quia consequuntur magni dolores eos qui ratione."
-	},
-	{ 
-	"title": "Space shouldn’t be the final frontier",
-	"tag": " business,people",
-	"content": "Ultrices posuere cubilia curae curabitur sit amet tortor ut massa commodo. Vestibulum consectetur euismod malesuada tincidunt cum. Sed ullamcorper dignissim consectetur ut tincidunt eros sed sapien consectetur dictum. Pellentesques sed volutpat ante, cursus port. Praesent mi magna, penatibus et magniseget dis parturient montes sed quia consequuntur magni dolores eos qui ratione."
-	},
-	{ 
-	"title": "Space shouldn’t be the final frontier",
-	"tag": " business,people",
-	"content": "Ultrices posuere cubilia curae curabitur sit amet tortor ut massa commodo. Vestibulum consectetur euismod malesuada tincidunt cum. Sed ullamcorper dignissim consectetur ut tincidunt eros sed sapien consectetur dictum. Pellentesques sed volutpat ante, cursus port. Praesent mi magna, penatibus et magniseget dis parturient montes sed quia consequuntur magni dolores eos qui ratione."
-	},
-	{ 
-	"title": "Space shouldn’t be the final frontier",
-	"tag": " business,people",
-	"content": "Ultrices posuere cubilia curae curabitur sit amet tortor ut massa commodo. Vestibulum consectetur euismod malesuada tincidunt cum. Sed ullamcorper dignissim consectetur ut tincidunt eros sed sapien consectetur dictum. Pellentesques sed volutpat ante, cursus port. Praesent mi magna, penatibus et magniseget dis parturient montes sed quia consequuntur magni dolores eos qui ratione."
-	}
-	
-	
-]}
+[
+{
+  "title": "This is the first post",
+  "slug": "first-post",
+  "img":"post-1.jpg",
+  "tag":"business , people",
+  "content": "The pizza is awesome. The pizza is awesome. The pizza is awesome. The pizza is awesome. The pizza is awesome. The pizza is awesome. The pizza is awesome. The pizza is awesome. The pizza is awesome. The pizza is awesome. The pizza is awesome."
+},
+{
+  "title": "Another post that you might like",
+  "slug": "second-post",
+  "img":"post-2.jpg",
+  "tag":"business , people",
+  "content": "Eating pizza is great. Eating pizza is great. Eating pizza is great. Eating pizza is great. Eating pizza is great. Eating pizza is great. Eating pizza is great. Eating pizza is great. Eating pizza is great. Eating pizza is great. Eating pizza is great. Eating pizza is great."
+},
+{
+  "title": "The third and last post",
+  "slug": "third-post",
+  "img":"post-3.jpg",
+  "tag":"business , people",
+  "content": "The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out. The pizza always runs out."
+}
+]
