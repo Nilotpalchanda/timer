@@ -29,9 +29,7 @@ var works = [
 
    });
 });
-app.get('/about',function(req,res){
-	res.render('pages/about');
-});
+
 app.get('/service',function(req,res){
 	res.render('pages/service');
 });
@@ -43,6 +41,9 @@ app.get('/blogs',function(req,res){
   res.render('pages/blogs',{
     moment: moment
   });
+});
+app.get('/aboutus',function(req,res){
+  res.render('pages/aboutus');
 });
 app.get('/contact',function(req,res){
 	res.render('pages/contact');
